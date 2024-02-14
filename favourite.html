@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Избранное</title>
+</head>
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__mob">
+                        <a href="" class="logo header__logo">
+                            <img src="img/logo.svg" alt="">
+                        </a>
+                        <button class="burger">
+                            <img src="img/burger.svg" alt="" class="_view1">
+                            <img src="img/burger2.svg" alt="" class="_view2">
+                        </button>
+                    </div>
+
+                    <div class="menu">
+                        <nav class="nav">
+                            <a href="" class="nav__link"><span>Оплата и доставка</span></a>
+                            <a href="" class="nav__link"><span>Обмен и возврат</span></a>
+                            <a href="" class="nav__link"><span>О компании</span></a>
+                            <a href="" class="nav__link"><span>Контакты</span></a>
+                            <a href="" class="nav__link"><span>Оригинал 100%</span></a>
+                        </nav>
+
+                        <nav class="nav2">
+                            <a href="" class="nav2__link"><span>Кроссовки</span></a>
+                            <a href="" class="nav2__link"><span>Тапочки</span></a>
+                            <a href="" class="nav2__link"><span>Куртки</span></a>
+                            <a href="" class="nav2__link"><span>Футболки</span></a>
+                            <a href="" class="nav2__link"><span>Штаны</span></a>
+                            <a href="" class="nav2__link"><span>Шорты</span></a>
+                            <a href="" class="nav2__link"><span>Толстовки</span></a>
+                            <a href="" class="nav2__link"><span>Аксессуары</span></a>
+                        </nav>
+
+                        <div class="header-action">
+                            <div class="header-action__search">
+                                <div class="header-search fg">
+                                    <input type="text" placeholder="Поиск">
+                                    <img src="img/search.svg" alt="" class="header-search__icon">
+                                </div>
+                                <button class="header-search__btn header-action__btn header-action__btn--hide-mob">
+                                    <svg class="_view1" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.5 25C20.299 25 25 20.299 25 14.5C25 8.70101 20.299 4 14.5 4C8.70101 4 4 8.70101 4 14.5C4 20.299 8.70101 25 14.5 25Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M21.9248 21.925L27.9998 28.0001" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <svg class="_view2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="_fill" d="M13.9442 12L22.5972 3.34792C23.1343 2.81079 23.1343 1.93994 22.5972 1.40285C22.06 0.865717 21.1892 0.865717 20.6521 1.40285L12 10.0558L3.34792 1.40285C2.81079 0.865717 1.93994 0.865717 1.40285 1.40285C0.86576 1.93998 0.865717 2.81083 1.40285 3.34792L10.0558 12L1.40285 20.6521C0.865717 21.1892 0.865717 22.0601 1.40285 22.5972C1.93998 23.1342 2.81083 23.1343 3.34792 22.5972L12 13.9442L20.652 22.5972C21.1892 23.1343 22.06 23.1343 22.5971 22.5972C23.1342 22.06 23.1342 21.1892 22.5971 20.6521L13.9442 12Z" fill="#464646" />
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <div class="header-action__items">
+                                <a href="" class="header-action__btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span>Избранное</span>
+                                </a>
+                                <a href="" class="header-action__btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1005 27H5.90049C5.65443 26.9988 5.41721 26.9081 5.23317 26.7448C5.04913 26.5815 4.93087 26.3567 4.90049 26.1125L3.12549 10.1125C3.1097 9.97309 3.12343 9.83192 3.16577 9.69817C3.20812 9.56441 3.27813 9.44106 3.37127 9.33614C3.4644 9.23121 3.57858 9.14706 3.70636 9.08915C3.83415 9.03124 3.9727 9.00086 4.11299 9H27.888C28.0283 9.00086 28.1668 9.03124 28.2946 9.08915C28.4224 9.14706 28.5366 9.23121 28.6297 9.33614C28.7228 9.44106 28.7929 9.56441 28.8352 9.69817C28.8776 9.83192 28.8913 9.97309 28.8755 10.1125L27.1005 26.1125C27.0701 26.3567 26.9519 26.5815 26.7678 26.7448C26.5838 26.9081 26.3466 26.9988 26.1005 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span>Корзина</span>
+                                </a>
+                                <a href="" class="header-action__btn header-action__btn--active header-action__btn--hide-desktop">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path class="_fill" d="M9.5 17.6797C9.36739 17.6797 9.24021 17.7324 9.14645 17.8261C9.05268 17.9199 9 18.0471 9 18.1797C9 18.3123 9.05268 18.4395 9.14645 18.5332C9.24021 18.627 9.36739 18.6797 9.5 18.6797H14.5C14.6326 18.6797 14.7598 18.627 14.8536 18.5332C14.9473 18.4395 15 18.3123 15 18.1797C15 18.0471 14.9473 17.9199 14.8536 17.8261C14.7598 17.7324 14.6326 17.6797 14.5 17.6797H9.5Z" fill="#FFF0BA" />
+                                        <path class="_fill" fill-rule="evenodd" clip-rule="evenodd" d="M14.169 2.7531C13.5513 2.26532 12.7871 2 12 2C11.2129 2 10.4487 2.26532 9.831 2.7531L3.331 7.8851C2.91608 8.21273 2.58078 8.63009 2.35026 9.10586C2.11973 9.58162 1.99998 10.1034 2 10.6321V18.6781C2 19.6064 2.36875 20.4966 3.02513 21.153C3.6815 21.8094 4.57174 22.1781 5.5 22.1781H18.5C19.4283 22.1781 20.3185 21.8094 20.9749 21.153C21.6313 20.4966 22 19.6064 22 18.6781V10.6321C22 10.1034 21.8803 9.58162 21.6497 9.10586C21.4192 8.63009 21.0839 8.21273 20.669 7.8851L14.169 2.7531ZM10.451 3.5381C10.8922 3.18983 11.4379 3.0004 12 3.0004C12.5621 3.0004 13.1078 3.18983 13.549 3.5381L20.049 8.6701C20.3454 8.90408 20.5849 9.20216 20.7497 9.54197C20.9144 9.88178 21 10.2545 21 10.6321V18.6781C21 19.3411 20.7366 19.977 20.2678 20.4459C19.7989 20.9147 19.163 21.1781 18.5 21.1781H5.5C4.83696 21.1781 4.20107 20.9147 3.73223 20.4459C3.26339 19.977 3 19.3411 3 18.6781V10.6321C2.99993 10.2546 3.08536 9.88191 3.24989 9.54211C3.41442 9.2023 3.65378 8.90418 3.95 8.6701L10.451 3.5381Z" fill="#FFF0BA" />
+                                    </svg>
+                                    <span>Главная</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="header-contacts">
+                            <div class="header-contacts__socials">
+                                <div class="contact-item">
+                                    <a href="" class="contact-item__link">
+                                        <svg class="contact-item__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.574 7.33333C12.1006 7.33333 8.47774 11.0871 8.47774 15.7221C8.47774 17.5896 9.06768 19.3146 10.063 20.7096L8 25.3333L8.53927 25.0746L12.6942 23.0871C13.8451 23.7396 15.1661 24.1108 16.5704 24.1108C21.0402 24.1108 24.6667 20.3571 24.6667 15.7221C24.6703 11.0871 21.0438 7.33333 16.574 7.33333ZM20.8918 19.3033C20.8447 19.5358 20.747 19.7571 20.6059 19.9521C20.4321 20.1921 20.2077 20.3721 19.9508 20.4846C19.6938 20.5971 19.4115 20.6421 19.1292 20.6046C18.3728 20.5108 17.6417 20.2596 16.9866 19.8546C16.2302 19.3896 15.2132 18.6658 14.4459 17.6308C13.6279 16.6371 13.1828 15.4746 12.9005 14.6083C12.658 13.8621 12.5711 13.0671 12.6399 12.2833C12.6652 11.9871 12.7666 11.7096 12.9258 11.4733C13.0851 11.2371 13.3058 11.0458 13.5664 10.9221C13.7799 10.8171 14.0116 10.7683 14.2396 10.7683C14.5653 10.7683 14.9634 10.7646 15.2385 10.9671C15.6656 11.2783 15.8465 11.8933 15.8465 12.4333C15.8465 12.4821 15.8429 12.5346 15.8393 12.5833C15.814 12.8796 15.7886 13.1383 15.6258 13.3746C15.4665 13.6108 15.1734 13.8171 14.9128 13.9446C15.1118 15.0546 15.4557 15.8796 15.9298 16.4121C16.1325 16.7046 16.4075 16.9821 16.7586 17.2408C17.1097 17.4996 17.5331 17.7358 18.0362 17.9533C18.2099 17.7171 18.4669 17.4621 18.7238 17.3496C18.9772 17.2371 19.2305 17.2633 19.5128 17.3008C19.5599 17.3083 19.6106 17.3158 19.6576 17.3271C20.1643 17.4396 20.7072 17.7508 20.9135 18.2496C21.0438 18.5721 20.9605 18.9733 20.8918 19.3033Z" fill="#464646" />
+                                            <circle cx="16" cy="16" r="15.5" stroke="#464646" />
+                                        </svg>
+                                        <span class="text16">WhatsApp</span>
+                                    </a>
+                                </div>
+                                <div class="contact-item">
+                                    <a href="" class="contact-item__link">
+                                        <svg class="contact-item__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18.1458 13.7931C18.6569 13.2729 19.1644 12.0592 17.0346 13.533C15.045 14.9264 13.042 16.2998 11.0257 17.6529C10.7187 17.7942 10.3868 17.8709 10.0499 17.8783C9.71305 17.8858 9.37817 17.8239 9.0654 17.6963C7.78752 17.3061 6.29573 16.786 6.29573 16.786C6.29573 16.786 5.27713 16.1348 7.02079 15.4413C7.02079 15.4413 14.3927 12.3626 16.9494 11.278C17.9291 10.8445 21.2525 9.45742 21.2525 9.45742C21.2525 9.45742 22.7869 8.84962 22.6591 10.3244C22.6165 10.9312 22.2757 13.0572 21.935 15.3546C21.4229 18.6066 20.8691 22.163 20.8691 22.163C20.8691 22.163 20.784 23.1599 20.0598 23.3333C19.2846 23.32 18.5357 23.0456 17.93 22.5531C17.7596 22.423 14.7344 20.4715 13.626 19.5178C13.5132 19.4401 13.4216 19.3346 13.3597 19.2112C13.2977 19.0877 13.2675 18.9504 13.2717 18.8118C13.276 18.6733 13.3146 18.5381 13.384 18.4189C13.4534 18.2996 13.5513 18.2002 13.6686 18.1297C15.1888 16.7143 16.6815 15.2685 18.1458 13.7931Z" fill="#464646" />
+                                            <circle cx="16" cy="16" r="15.5" stroke="#464646" />
+                                        </svg>
+                                        <span class="text16">Telegram</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-contacts__links">
+                                <div class="contact-item">
+                                    <a href="mailto:order@ogstyle.ru" class="contact-item__link">
+                                        <svg class="contact-item__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="16" cy="16" r="15.5" stroke="#464646" />
+                                            <path d="M23.9693 12.1709L18.3573 17.7829C17.7316 18.407 16.8838 18.7575 16 18.7575C15.1162 18.7575 14.2684 18.407 13.6427 17.7829L8.03067 12.1709C8.02133 12.2762 8 12.3715 8 12.4762V20.4762C8.00106 21.3599 8.35259 22.2072 8.97748 22.832C9.60237 23.4569 10.4496 23.8085 11.3333 23.8095H20.6667C21.5504 23.8085 22.3976 23.4569 23.0225 22.832C23.6474 22.2072 23.9989 21.3599 24 20.4762V12.4762C24 12.3715 23.9787 12.2762 23.9693 12.1709Z" fill="#464646" />
+                                            <path d="M17.4148 16.8402L23.5041 10.7502C23.2091 10.2611 22.7931 9.85621 22.2961 9.57468C21.7991 9.29314 21.2379 9.14442 20.6668 9.14286H11.3334C10.7622 9.14442 10.2011 9.29314 9.70411 9.57468C9.20713 9.85621 8.79108 10.2611 8.49609 10.7502L14.5854 16.8402C14.9611 17.2144 15.4698 17.4245 16.0001 17.4245C16.5304 17.4245 17.039 17.2144 17.4148 16.8402Z" fill="#464646" />
+                                        </svg>
+                                        <span class="text16">order@ogstyle.ru</span>
+                                    </a>
+                                    <div class="m-dropdown">
+                                        <div class="m-dropdown__show">
+                                            <svg class="m-dropdown__arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16.25 7.5L10 13.75L3.75 7.5" stroke="#716969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="m-dropdown__hidden">
+                                            <div class="m-dropdown__inner">
+                                                <a href="mailto:order@ogstyle.ru" class="m-dropdown__link">
+                                                    order@ogstyle.ru
+                                                </a>
+                                                <a href="mailto:order@ogstyle.ru" class="m-dropdown__link">
+                                                    order@ogstyle.ru
+                                                </a>
+                                                <a href="mailto:order@ogstyle.ru" class="m-dropdown__link">
+                                                    order@ogstyle.ru
+                                                </a>
+                                                <a href="mailto:order@ogstyle.ru" class="m-dropdown__link">
+                                                    order@ogstyle.ru
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="contact-item">
+                                    <a href="tel:+79020416339" class="contact-item__link">
+                                        <svg class="contact-item__icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="16" cy="16" r="15.5" stroke="#464646" />
+                                            <path d="M24.0029 12.1652C24.0029 17.2586 17.2494 24.0054 12.1627 24.0054C11.0493 24.0054 10.0093 23.5854 9.24259 22.8187L8.57591 22.052C7.80256 21.2787 7.80256 19.972 8.60925 19.1653C8.62925 19.1453 10.2359 17.912 10.2359 17.912C10.6208 17.5461 11.1316 17.342 11.6626 17.342C12.1937 17.342 12.7045 17.5461 13.0893 17.912L14.0627 18.692C16.1961 17.7853 17.7095 16.2653 18.6828 14.0585L17.9095 13.0852C17.5405 12.7019 17.3344 12.1905 17.3344 11.6585C17.3344 11.1265 17.5405 10.6151 17.9095 10.2318C17.9095 10.2318 19.1428 8.62508 19.1628 8.60508C19.3545 8.41325 19.5821 8.26108 19.8326 8.15726C20.0831 8.05344 20.3517 8 20.6229 8C20.894 8 21.1626 8.05344 21.4131 8.15726C21.6636 8.26108 21.8912 8.41325 22.0829 8.60508L22.7829 9.21176C23.1729 9.59641 23.4819 10.0554 23.6914 10.5615C23.901 11.0677 24.0069 11.6107 24.0029 12.1585V12.1652Z" fill="#464646" />
+                                        </svg>
+                                        <span class="text16">+7 (902) 041-63-39</span>
+                                    </a>
+                                    <div class="m-dropdown">
+                                        <div class="m-dropdown__show">
+                                            <svg class="m-dropdown__arrow" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16.25 7.5L10 13.75L3.75 7.5" stroke="#716969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="m-dropdown__hidden">
+                                            <div class="m-dropdown__inner">
+                                                <a href="tel:+79020416339" class="m-dropdown__link">
+                                                    7 (902) 041-63-39
+                                                </a>
+                                                <a href="tel:+79020416339" class="m-dropdown__link">
+                                                    7 (902) 041-63-39
+                                                </a>
+                                                <a href="tel:+79020416339" class="m-dropdown__link">
+                                                    7 (902) 041-63-39
+                                                </a>
+                                                <a href="tel:+79020416339" class="m-dropdown__link">
+                                                    7 (902) 041-63-39
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <main class="content">
+            <div class="page-top">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <a href="" class="breadcrumbs__item">Главная</a>
+                        <div class="breadcrumbs__item">Избранное</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="favourite m-section">
+                <div class="container">
+                    <h1 class="h2">
+                        Избранное
+                    </h1>
+                    <div class="product-items grid4 grid-laptop3 grid-mob2">
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge ">
+                                    <span>Лучшая цена</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Defy All Day</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>9 000 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>12 990 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-32%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge _red">
+                                    <span>Хит сезона</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Varsity Royal</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>24 000 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>29 990 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-18%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge _blue">
+                                    <span>Топ продаж</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Air Max TW SE</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>13 950 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>15 500 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-10%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Носки Nike</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>2 400 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>3 200 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-16%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge _blue">
+                                    <span>Топ продаж</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Air Max TW SE</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>13 950 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>15 500 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-10%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Носки Nike</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>2 400 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>3 200 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-16%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge ">
+                                    <span>Лучшая цена</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Defy All Day</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>9 000 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>12 990 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-32%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge _red">
+                                    <span>Хит сезона</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Varsity Royal</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>24 000 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>29 990 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-18%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge _blue">
+                                    <span>Топ продаж</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Air Max TW SE</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>13 950 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>15 500 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-10%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Носки Nike</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>2 400 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>3 200 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-16%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge ">
+                                    <span>Лучшая цена</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Defy All Day</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>9 000 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>12 990 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-32%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-card__slider _nested-slider">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product2.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product3.webp" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="product-card__img">
+                                                <img src="img/product4.webp" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="product-card__pagination"></div>
+                            </div>
+
+                            <div class="product-card__badges">
+                                <div class="m-badge _red">
+                                    <span>Хит сезона</span>
+                                </div>
+                            </div>
+                            <div class="product-card__buttons">
+                                <button class="favourite-btn _added">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16 27C16 27 3.5 20 3.5 11.5C3.5 9.99737 4.02062 8.54114 4.97328 7.37908C5.92593 6.21703 7.25178 5.42093 8.72525 5.12624C10.1987 4.83154 11.7288 5.05646 13.0551 5.76272C14.3814 6.46898 15.4221 7.61296 16 9.00001V9.00001C16.5779 7.61296 17.6186 6.46898 18.9449 5.76272C20.2712 5.05646 21.8013 4.83154 23.2748 5.12624C24.7482 5.42093 26.0741 6.21703 27.0267 7.37908C27.9794 8.54114 28.5 9.99737 28.5 11.5C28.5 20 16 27 16 27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                                <button class="cart-btn">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M26.1 27H5.9C5.65394 26.9988 5.41672 26.9081 5.23268 26.7448C5.04864 26.5815 4.93038 26.3567 4.9 26.1125L3.125 10.1125C3.10922 9.97309 3.12294 9.83192 3.16529 9.69817C3.20763 9.56441 3.27764 9.44106 3.37078 9.33614C3.46392 9.23121 3.57809 9.14706 3.70588 9.08915C3.83366 9.03124 3.97221 9.00086 4.1125 9H27.8875C28.0278 9.00086 28.1663 9.03124 28.2941 9.08915C28.4219 9.14706 28.5361 9.23121 28.6292 9.33614C28.7224 9.44106 28.7924 9.56441 28.8347 9.69817C28.8771 9.83192 28.8908 9.97309 28.875 10.1125L27.1 26.1125C27.0696 26.3567 26.9514 26.5815 26.7673 26.7448C26.5833 26.9081 26.3461 26.9988 26.1 27V27Z" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11 9C11 7.67392 11.5268 6.40215 12.4645 5.46447C13.4021 4.52678 14.6739 4 16 4C17.3261 4 18.5979 4.52678 19.5355 5.46447C20.4732 6.40215 21 7.67392 21 9" stroke="#2B2929" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="cart-btn__title">
+            В корзину
+        </span>
+                                </button>
+                            </div>
+
+                            <div class="product-card__content">
+                                <div class="product-card__title text20">
+                                    <a href="">Nike Varsity Royal</a>
+                                </div>
+                                <div class="product-card__bottom _flex">
+                                    <div class="product-card__prices _flex">
+                                        <div class="product-card__price">
+                                            <span>24 000 ₽</span>
+                                        </div>
+                                        <div class="product-card__price2">
+                                            <span>29 990 ₽</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-card__sale">
+                                        <span>-18%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="pagination">
+                        <div class="pagination__items">
+                            <a href="" class="pagination__item _btn _hide-tablet">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.4777 19L20 17.355L15.0553 12L20 6.645L18.4777 5L12 12L18.4777 19Z" fill="#716969" />
+                                    <path d="M10.4777 19L12 17.355L7.05533 12L12 6.645L10.4777 5L4 12L10.4777 19Z" fill="#716969" />
+                                </svg>
+                            </a>
+                            <a href="" class="pagination__item _btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.4777 19L16 17.355L11.0553 12L16 6.645L14.4777 5L8 12L14.4777 19Z" fill="#716969" />
+                                </svg>
+                            </a>
+                            <a href="" class="pagination__item _active">1</a>
+                            <a href="" class="pagination__item">2</a>
+                            <a href="" class="pagination__item">3</a>
+                            <a href="" class="pagination__item _hide-tablet">4</a>
+                            <a href="" class="pagination__item _hide-tablet">5</a>
+                            <a href="" class="pagination__item">...</a>
+                            <a href="" class="pagination__item">10</a>
+                            <a href="" class="pagination__item _btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.52227 5L8 6.645L12.9447 12L8 17.355L9.52226 19L16 12L9.52227 5Z" fill="#716969" />
+                                </svg>
+                            </a>
+                            <a href="" class="pagination__item _btn _hide-tablet">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.52227 5L4 6.645L8.94467 12L4 17.355L5.52227 19L12 12L5.52227 5Z" fill="#716969" />
+                                    <path d="M13.5223 5L12 6.645L16.9447 12L12 17.355L13.5223 19L20 12L13.5223 5Z" fill="#716969" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__top">
+                        <div class="footer-info">
+                            <a href="" class="logo footer__logo">
+                                <img src="img/logo.svg" alt="">
+                            </a>
+                            <div class="footer__desc">
+                                OGstyle - магазин по продаже оригинальной одежды и обуви мировых брендов
+                            </div>
+                            <div class="footer-contacts">
+                                <a href="tel:+79020416339" class="footer-contacts__link">+7 (902) 041-63-39</a>
+                                <a href="mailto:order@ogstyle.ru" class="footer-contacts__link">order@ogstyle.ru</a>
+                                <div class="socials">
+                                    <a href="" class="socials__item">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.574 7.3335C12.1006 7.3335 8.47774 11.0872 8.47774 15.7222C8.47774 17.5897 9.06768 19.3147 10.063 20.7097L8 25.3335L8.53927 25.0747L12.6942 23.0872C13.8451 23.7397 15.1661 24.111 16.5704 24.111C21.0402 24.111 24.6667 20.3572 24.6667 15.7222C24.6703 11.0872 21.0438 7.3335 16.574 7.3335ZM20.8918 19.3035C20.8447 19.536 20.747 19.7572 20.6059 19.9522C20.4321 20.1922 20.2077 20.3722 19.9508 20.4847C19.6938 20.5972 19.4115 20.6422 19.1292 20.6047C18.3728 20.511 17.6417 20.2597 16.9866 19.8547C16.2302 19.3897 15.2132 18.666 14.4459 17.631C13.6279 16.6372 13.1828 15.4747 12.9005 14.6085C12.658 13.8622 12.5711 13.0672 12.6399 12.2835C12.6652 11.9872 12.7666 11.7097 12.9258 11.4735C13.0851 11.2372 13.3058 11.046 13.5664 10.9222C13.7799 10.8172 14.0116 10.7685 14.2396 10.7685C14.5653 10.7685 14.9634 10.7647 15.2385 10.9672C15.6656 11.2785 15.8465 11.8935 15.8465 12.4335C15.8465 12.4822 15.8429 12.5347 15.8393 12.5835C15.814 12.8797 15.7886 13.1385 15.6258 13.3747C15.4665 13.611 15.1734 13.8172 14.9128 13.9447C15.1118 15.0547 15.4557 15.8797 15.9298 16.4122C16.1325 16.7047 16.4075 16.9822 16.7586 17.241C17.1097 17.4997 17.5331 17.736 18.0362 17.9535C18.2099 17.7172 18.4669 17.4622 18.7238 17.3497C18.9772 17.2372 19.2305 17.2635 19.5128 17.301C19.5599 17.3085 19.6106 17.316 19.6576 17.3272C20.1643 17.4397 20.7072 17.751 20.9135 18.2497C21.0438 18.5722 20.9605 18.9735 20.8918 19.3035Z" fill="#464646" />
+                                            <circle cx="16" cy="16" r="15.5" stroke="#464646" />
+                                        </svg>
+                                    </a>
+                                    <a href="" class="socials__item">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18.1458 13.7933C18.6569 13.2731 19.1644 12.0594 17.0346 13.5332C15.045 14.9266 13.042 16.3 11.0257 17.6531C10.7187 17.7944 10.3868 17.871 10.0499 17.8785C9.71305 17.8859 9.37817 17.824 9.0654 17.6964C7.78752 17.3063 6.29573 16.7861 6.29573 16.7861C6.29573 16.7861 5.27713 16.135 7.02079 15.4414C7.02079 15.4414 14.3927 12.3628 16.9494 11.2782C17.9291 10.8447 21.2525 9.45759 21.2525 9.45759C21.2525 9.45759 22.7869 8.84978 22.6591 10.3245C22.6165 10.9314 22.2757 13.0573 21.935 15.3547C21.4229 18.6067 20.8691 22.1631 20.8691 22.1631C20.8691 22.1631 20.784 23.1601 20.0598 23.3335C19.2846 23.3201 18.5357 23.0458 17.93 22.5532C17.7596 22.4232 14.7344 20.4716 13.626 19.518C13.5132 19.4402 13.4216 19.3348 13.3597 19.2113C13.2977 19.0879 13.2675 18.9505 13.2717 18.812C13.276 18.6735 13.3146 18.5383 13.384 18.419C13.4534 18.2998 13.5513 18.2003 13.6686 18.1299C15.1888 16.7144 16.6815 15.2686 18.1458 13.7933Z" fill="#464646" />
+                                            <circle cx="16" cy="16" r="15.5" stroke="#464646" />
+                                        </svg>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="footer-nav">
+                            <a href="" class="footer-nav__link">Кроссовки</a>
+                            <a href="" class="footer-nav__link">Штаны</a>
+                            <a href="" class="footer-nav__link">Оплата и доставка</a>
+                            <a href="" class="footer-nav__link">О компании</a>
+                            <a href="" class="footer-nav__link">Футболки</a>
+                            <a href="" class="footer-nav__link">Шорты</a>
+                            <a href="" class="footer-nav__link">Обмен и возврат</a>
+                            <a href="" class="footer-nav__link">Контакты</a>
+                            <a href="" class="footer-nav__link">Тапочки</a>
+                            <a href="" class="footer-nav__link">Толстовки</a>
+                            <a href="" class="footer-nav__link">Оригинал 100%</a>
+                            <a href="" class="footer-nav__link">Куртки</a>
+                            <a href="" class="footer-nav__link">Аксессуары</a>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__text">© OGstyle 2023</div>
+                        <div class="footer__text">Политика конфиденциальности</div>
+                        <div class="footer__text">Разработано ООО “Maxocom”</div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<style>
+    .wrapper a {
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .wrapper button {
+        margin-bottom: 25px;
+        width: 300px;
+        height: 45px;
+    }
+</style>
+
+<body class="m-page">
+
+    <div class="wrapper" style="padding: 50px;">
+        <a href="index.html" style="display: block; margin-bottom: 20px;">
+            Главная
+        </a>
+        <a href="payment.html" style="display: block; margin-bottom: 20px;">
+            Оплата и доставка
+        </a>
+        <a href="original.html" style="display: block; margin-bottom: 20px;">
+            Оригинал 100%
+        </a>
+        <a href="return.html" style="display: block; margin-bottom: 20px;">
+            Обмен и возврат заказов
+        </a>
+        <a href="contacts.html" style="display: block; margin-bottom: 20px;">
+            Контакты
+        </a>
+        <a href="about.html" style="display: block; margin-bottom: 20px;">
+            О компании
+        </a>
+        <a href="cart.html" style="display: block; margin-bottom: 20px;">
+            Корзина
+        </a>
+        <a href="cart-empty.html" style="display: block; margin-bottom: 20px;">
+            Корзина (Пусто)
+        </a>
+        <a href="favourite.html" style="display: block; margin-bottom: 20px;">
+            Избранное
+        </a>
+        <a href="catalog.html" style="display: block; margin-bottom: 20px;">
+            Каталог
+        </a>
+        <a href="catalog-item.html" style="display: block; margin-bottom: 20px;">
+            Карточка товара
+        </a>
+        <a href="order.html" style="display: block; margin-bottom: 20px;">
+            Оформление заказа
+        </a>
+        <a href="search.html" style="display: block; margin-bottom: 20px;">
+            Поиск по сайту
+        </a>
+        <a href="search-empty.html" style="display: block; margin-bottom: 20px;">
+            Поиск по сайту (Пусто)
+        </a>
+        <a href="404.html" style="display: block; margin-bottom: 20px;">
+            404
+        </a>
+
+
+
+
+        <button data-modal="subscribeModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            Вы успешно подписались
+        </button>
+        <button data-modal="errorModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            ошибка отправки
+        </button>
+        <button data-modal="phoneModal" style="border: 2px solid #000;margin-bottom: 20px;">
+            +7 (902) 041-63-39
+        </button>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="modal" id="subscribeModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <a href="" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <button class="close-btn _close-modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.75 5.25L5.25 18.75" stroke="#716969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M18.75 18.75L5.25 5.25" stroke="#716969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <img src="img/modal-img.svg" alt="" class="modal__img">
+            <div class="modal__text">
+                <div class="modal__title">
+                    Вы успешно подписались
+                </div>
+                <div class="modal__desc">
+                    Мы будем присылать вам специальные предложения, информацию о скидках, а так же информацию о поступлении товара
+                </div>
+            </div>
+            <button class="_close-modal modal__btn m-btn m-btn--big m-btn-black">
+                <span>Закрыть</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="modal" id="errorModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <a href="" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <button class="close-btn _close-modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.75 5.25L5.25 18.75" stroke="#716969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M18.75 18.75L5.25 5.25" stroke="#716969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <img src="img/modal-img2.svg" alt="" class="modal__img">
+            <div class="modal__text">
+                <div class="modal__title">
+                    ошибка отправки
+                </div>
+                <div class="modal__desc">
+                    Попробуйте перезагрузить страницу или отправить заявку немного позже
+                </div>
+            </div>
+            <button class="_close-modal modal__btn m-btn m-btn--big m-btn-black">
+                <span>Закрыть</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="modal phone-modal" id="phoneModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="modal__top">
+                <a href="" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <button class="close-btn _close-modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.75 5.25L5.25 18.75" stroke="#716969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M18.75 18.75L5.25 5.25" stroke="#716969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <div class="phone-modal__field">
+                <div class="text20">+7 (902) 041-63-39</div>
+            </div>
+            <div class="phone-modal__nav grid2 grid-mob">
+                <button data-copy="+7 (902) 041-63-39" class="m-btn m-btn-black">
+                    <img src="img/copy.svg" alt="">
+                    <span>Скопировать</span>
+                </button>
+                <a href="tel:+79020416339" class="m-btn m-btn-black">
+                    <img src="img/phone.svg" alt="">
+                    <span>Позвонить</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <!--  -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
